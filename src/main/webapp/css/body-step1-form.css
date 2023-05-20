@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.body-step1-form { text-align : left;}
+.title1 { margin-left : 5%; }
+.black-hr { 
+	width : 90%;
+	height : 1px;
+	background-color : black;
+	border : 0; 
+}
+.gray-hr { 
+	width : 90%;
+	height : 1px;
+	background-color : #CCCCCC;
+	border : 0; 
+}
+.name, .email {
+	margin-top : 0px;
+	margin-left : 6%;
+	font-weight : bold; 
+	font-size : 0.8em;
+	width : 150px;
+	height : 60px; 
+	display : block;
+}
+
+.input-name:hover, .input-email:hover {
+	border : solid 1px #326EB3;
+	border-radius : 0px;
+}
+.input-name:focus, .input-email:focus {
+	outline-color : transparent;
+	outline-style : solid;
+	border : solid 1px #326EB3;
+	border-radius : 0px;
+}
+.input-name, .input-email{
+	border : solid 1px #CCCCCC;
+	border-radius : 0px;
+	padding-left : 10px;
+	height : 30px;
+	width : 300px;
+}
+.name-div, .email-div { display : flex; }
+.name-div-div, .email-div-div { display : flex; flex-direction : column; }
+.name-div-div p, .email-div-div p { 
+	font-size : 0.6em;
+	color : #B45521;
+}
+.register-confirm {
+	height : 50px;
+	width : 100px;
+	text-align : center;
+	font-weight : bold;
+	color : white;
+	background-color : #4570C2;
+	border : none;
+	border-radius : 0px;
+}
+.button-div { text-align : center; }

@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.body-step2-form { text-align : left;}
+.title2 { margin-left : 5%; }
+.black-hr { 
+	width : 90%;
+	height : 1px;
+	background-color : black;
+	border : 0; 
+}
+.gray-hr { 
+	width : 90%;
+	height : 1px;
+	background-color : #CCCCCC;
+	border : 0; 
+}
+.id, .pw, .pw-confirm, .name, .email, .phone-num, .personal-phone-num {
+	margin-top : 0px;
+	margin-left : 6%;
+	font-weight : bold; 
+	font-size : 0.8em;
+	width : 150px;
+	height : 60px; 
+	display : block;
+}
+
+.input-id:hover, .input-pw:hover, .input-pw-confirm:hover, 
+.input-name:hover, .input-email:hover, .input-phone-num:hover, .input-personal-phone-num:hover {
+	border : solid 1px #326EB3;
+	border-radius : 0px;
+}
+.input-id:focus, .input-pw:focus, .input-pw-confirm:focus, 
+.input-name:focus, .input-email:focus, .input-phone-num:focus, .input-personal-phone-num:focus {
+	outline-color : transparent;
+	outline-style : solid;
+	border : solid 1px #326EB3;
+	border-radius : 0px;
+}
+.input-id, .input-pw, .input-pw-confirm, 
+.input-name, .input-email, .input-phone-num, .input-personal-phone-num{
+	border : solid 1px #CCCCCC;
+	border-radius : 0px;
+	padding-left : 10px;
+	height : 30px;
+	width : 300px;
+}
+.id-div, .pw-div, .pw-confirm-div, 
+.name-div, .email-div, .phone-num-div, .personal-phone-num-div { 
+display : flex; 
+}
+
+.id-div-div, .pw-div-div, .pw-confirm-div-div, 
+.name-div-div, .email-div-div, .phone-num-div-div, .personal-num-div-div {
+ display : flex; flex-direction : column; 
+ }
+ 
+.id-div-div p, .pw-div-div p, .pw-confirm-div-div p, 
+.name-div-div p, .email-div-div p, .phone-num-div-div p, .personal-phone-num-div-div p { 
+	font-size : 0.6em;
+	color : #B45521;
+}
+
+.register-confirm {
+	height : 50px;
+	width : 100px;
+	text-align : center;
+	font-weight : bold;
+	color : white;
+	background-color : #4570C2;
+	border : none;
+	border-radius : 0px;
+}
+.button-div { text-align : center; }
+.star { color : red; }
